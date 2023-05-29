@@ -48,3 +48,35 @@ nav {
     width: 600px;
     background-color: pink;
 }
+
+main section:nth-child(even) {
+    background-color: rgb(228, 210, 210);
+}
+
+section {
+    padding: 20px 0px;
+}
+
+.flex-container-section {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+}
+
+.flex-item-big-content {
+    background-color: rgb(54, 54, 239);
+    height: 400px;
+    flex-grow: 3;
+}
+
+.flex-item-small-content {
+    background-color: rgb(246, 119, 140);
+    height: 400px;
+    flex-grow: 1;
+}
+
+.flex-item-giga-content {
+    height: 600px;
+    background-color: green;
+    flex-grow: 1;
+}
