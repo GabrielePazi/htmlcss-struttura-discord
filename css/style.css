@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+
+nav {
+    background-color: lightblue;
+    padding: 10px 0px;
+}
+
+.flex-container {
+    background-color: orange;
+    max-width: 980px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.logo_container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link_container {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.login_container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
