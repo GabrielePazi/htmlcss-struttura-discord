@@ -80,3 +80,27 @@ section {
     background-color: green;
     flex-grow: 1;
 }
+
+footer {
+    background-color: black;
+}
+
+.flex-container-footer {
+    max-width: 980px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-container-footer:first-child {
+    background-color: salmon;
+    width: 40%;
+}
+
+.flex-item-thin-content {
+    background-color: turquoise;
+    width: 15%;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+}
