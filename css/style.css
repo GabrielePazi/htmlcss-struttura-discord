@@ -104,3 +104,28 @@ footer {
     border-left: 1px dashed black;
     border-right: 1px dashed black;
 }
+
+hr {
+    color: rgb(228, 210, 210);
+}
+
+.flex-container-contacts-footer {
+    background-color: aquamarine;
+    max-width: 980px;
+    margin: auto;
+}
+
+footer section:last-of-type {
+    padding-bottom: 0px;
+}
+
+.flex-item-contacts-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.flex-item-contacts-footer > * {
+    background-color: rgb(228, 210, 210);
+    border: 1px dashed black;
+}
