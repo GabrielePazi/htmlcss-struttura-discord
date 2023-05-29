@@ -17,20 +17,34 @@ nav {
     display: flex;
 }
 
-.logo_container {
+.flex-item_logo {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
 }
 
-.link_container {
+.flex-item_links {
     flex-grow: 3;
     display: flex;
     justify-content: center;
 }
 
-.login_container {
+.flex-item_login {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+.flex-container-header {
+    background-color: blue;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-header {
+    height: 300px;
+    width: 600px;
+    background-color: pink;
 }
