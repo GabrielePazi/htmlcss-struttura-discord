@@ -52,6 +52,7 @@ nav {
     height: 300px;
     width: 600px;
     background-color: pink;
+    border: 1px dashed black;
 }
 
 main section:nth-child(even) {
@@ -72,18 +73,21 @@ section {
     background-color: rgb(54, 54, 239);
     height: 400px;
     flex-grow: 3;
+    border: 1px dashed black;
 }
 
 .flex-item-small-content {
     background-color: rgb(246, 119, 140);
     height: 400px;
     flex-grow: 1;
+    border: 1px dashed black;
 }
 
 .flex-item-giga-content {
     height: 600px;
     background-color: green;
     flex-grow: 1;
+    border: 1px dashed black;
 }
 
 footer {
