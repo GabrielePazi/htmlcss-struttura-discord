@@ -13,7 +13,6 @@ nav {
     background-color: orange;
     max-width: 980px;
     margin: auto;
-    padding: 10px;
     display: flex;
 }
 
@@ -21,18 +20,24 @@ nav {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
+    padding: 10px;
+    border: 1px dashed black;
 }
 
 .flex-item_links {
     flex-grow: 3;
     display: flex;
+    padding: 10px;
     justify-content: center;
+    border: 1px dashed black;
 }
 
 .flex-item_login {
     flex-grow: 1;
     display: flex;
+    padding: 10px;
     justify-content: flex-end;
+    border: 1px dashed black;
 }
 
 .flex-container-header {
